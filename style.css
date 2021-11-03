@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .nav{
+    position: absolute;
+    right: 20px;
+} */
+
+.container1{
+    background-color: red;
+    height: 100vh;
+    position: relative;
+}
+
+.container2{
+    background-color: green;
+    height: 100vh;
+    position: relative;
+}
+
+.container3{
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+h1{
+    position: absolute;
+    text-transform: uppercase;
+    color: yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -30%);
+}
+
+.container3 > h1{
+    color: green;
+}
